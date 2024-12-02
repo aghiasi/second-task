@@ -1,0 +1,96 @@
+body{
+    padding: 20px;
+    max-width: 390px;
+    margin-left: auto;
+    margin-right: auto;
+}
+*{
+    font-family: "Varela Round", sans-serif;
+}
+.image img {
+    width: 390px;
+    height: 180px;
+    object-fit: cover;
+}
+.image {
+    max-width: min-content;
+    max-height: 180px;
+    border-radius: 25px;
+    overflow-y: hidden;
+}
+input{
+    width:100%;
+    border:2px solid #aaaaaa3d;
+    border-radius:4px;
+    margin:8px 0;
+    outline:none;
+    padding:8px;
+    box-sizing:border-box;
+    transition:.3s;
+    background-color: #F3F7FB ; 
+  }
+  a{
+    color: #1E4AE9;
+    cursor: pointer;
+  }
+  input:focus{
+    border-color:dodgerBlue;
+    box-shadow:0 0 8px 0 dodgerBlue;
+  }
+  .rtl{
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  .center {
+    text-align: center;
+    margin-bottom: 20px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+  }
+  .container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+  }
+  .line{
+    width:130px;
+    background-color: black;
+    height: 1px;
+  }
+  button.submit{
+    background-color: #162D3A;
+    color: white;
+    width: 342px;
+    height: 44px;
+    border-radius: 10px;
+  }
+  .sign-with{
+    display: flex;
+    width: 342px;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+    margin: 0 auto;
+  }
+  .sign-with-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    background-color: #F3F9FA;
+    width: 160px;
+    height: 40px;
+    justify-content: space-evenly;
+    outline: none;
+    border-radius: 10px;
+    border: none;
+  }
+  .to{
+    position: relative;
+    top: 5px;
+  }
+  footer{
+    color: #959CB6;
+    text-align: center;
+  }
