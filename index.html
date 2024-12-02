@@ -10,29 +10,32 @@
     <title>some task</title>
 </head>
 <body>
-    <section class="image">
+    <section class="image animation">
         <img src="./images/Art.png">
     </section>
     <form>
-        <h1>Wellcome Back 👋</h1>
-        <p>Today is a new day. It's your day. You shape it. 
+        <h1 class="animation">Wellcome Back 👋</h1>
+        <p class="animation">Today is a new day. It's your day. You shape it.
             Sign in to start managing your projects.</p>
-            <label for="email">Email</label>
-            <input type="email" name="email" required placeholder="Example@email.com">
-            <label for="password">Password</label>
-            <input type="password"name='password' required placeholder="At least 8 characters">
-            <p class="rtl"><a>Forgot Password ? </a></p>
-            <div class="center"><button class="submit" type="submit" name="submit">Sign in</button></div>
-           <div class="container"><div class="line"></div><p>or sign in with</p><div class="line"></div></div>
-            <div class="sign-with  ">
-                <button class="sign-with-btn"><img class="to" src="./Google.svg" alt="">Google</button>
-                <button class="sign-with-btn"><img src="./Facebook.svg" alt="">Facebook</button>
+            <div class="animation"><label class=" " for="email">Email</label>
+            <input class="" type="email" name="email" required placeholder="Example@email.com"></div>
+            <div class="animation"><label class="" for="password">Password</label>
+            <input class="" type="password"name='password' required placeholder="At least 8 characters"></div>
+            <p class="rtl animation"><a>Forgot Password ? </a></p>
+            <div class="center animation"><button class="submit" type="submit" name="submit">Sign in</button></div>
+           <div class="container animation"><div class="line"></div><p>or sign in with</p><div class="line"></div></div>
+            <div class="sign-with  animation ">
+                <button class="sign-with-btn animation"><img class="to" src="./Google.svg" alt="">Google</button>
+                <button class="sign-with-btn animation"><img src="./Facebook.svg" alt="">Facebook</button>
             </div> 
-            <p class="center">Don't you have an account?<a>Sign up </a></p>
+            <p class="center animation">Don't you have an account?<a>Sign up </a></p>
+            <footer class='animation'>
+                <p>© 2024 ALL RIGHTS RESERVED</p>
+            </footer>
     </form>
-    <footer>
-        <p>© 2024 ALL RIGHTS RESERVED</p>
-    </footer>
-</body>
 
+</body>
+<script src="https://cdn.jsdelivr.net/npm/motion@11.11.13/dist/motion.js"></script>
+</script>
+<script src="./script.js" type="module"></script>
 </html> 
